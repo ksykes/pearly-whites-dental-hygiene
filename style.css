@@ -11,3 +11,126 @@ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
 */
 
 /* You can start adding your own styles here. Use !important to overwrite styles if needed. */
+
+/* BASE STYLES */
+
+/* HEADER */
+
+/* smaller logo */
+@media screen and (min-width: 1023px) {
+    .home .site-branding {
+        max-width: 500px;
+    }
+}
+
+/* site description */
+.site-branding p.site-description:first-of-type {
+    padding-bottom: 0;
+}
+
+/* site tagline */
+.site-branding p.tagline {
+    font-family: 'Source Code Pro', mono;
+    font-size: 24px;
+	font-size: 1.5rem;
+}
+
+/* nav */
+@media screen and (min-width: 1130px) {
+    .main-container {
+        padding-top: 100px;
+    }
+
+    .site-branding-wrap {
+        padding: 0 0 20px;
+    }
+}
+
+
+/* hide page title on homepage */
+.home .site-content .entry-header,
+.home .site-content .page:before {
+    display: none;
+}
+
+/* COVID INFO BOX */
+
+/* info box */
+.green-box h2 {
+    margin-top: 15px;
+}
+
+.green-box p:last-of-type {
+    margin-bottom: 0;
+}
+
+/* HERO IMAGE */
+
+/* SERVICES */
+.wp-block-group.services .wp-block-group__inner-container {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wp-block-group.why {
+    width: 25%;
+    margin-right: 20px;
+}
+
+.wp-block-group.services-chart {
+    width: 75%;
+}
+
+/* payment icons */
+.entry-content .wp-block-gallery.payment-icons {
+    max-width: 180px;
+    margin: 0 auto;
+}
+
+.payment-icons ul.blocks-gallery-grid {
+    padding: 0;
+}
+
+.payment-icons ul.blocks-gallery-grid .blocks-gallery-item {
+    margin: 0 10px 10px 0;
+}
+
+/* services table */
+.wp-block-table table {
+    border: none;
+}
+
+.wp-block-table table td,
+.wp-block-table table th {
+    border: none;
+}
+
+.wp-block-table table tr:nth-child(odd) {
+    background-color: #e6e6e6;
+}
+
+.wp-block-table table td ul {
+    margin-bottom: 0;
+}
+
+.wp-block-table table td ul li {
+    font-size: 15px;
+}
+
+/* LOCATIONS */
+.locations iframe {
+    border: 2px solid #e6e6e6 !important;
+}
+
+/* CONTACT */
+
+/* ABOUT US */
+
+/* FOOTER */
+
+/* CREDITS */
+
+/* PRIVACY POLICY */
+
+/* MOBILE */
