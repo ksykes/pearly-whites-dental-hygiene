@@ -14,6 +14,10 @@ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
 
 /* BASE STYLES */
 
+body, ul, li {
+    line-height: 1.5;
+}
+
 /* HEADER */
 
 /* smaller logo */
@@ -133,6 +137,39 @@ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
 }
 
 /* ABOUT US */
+.wp-block-image.headshot {
+    width: 165px;
+    float: left;
+    margin: 0 15px 0 0;
+}
+
+.wp-block-image.headshot figure.alignleft.size-large {
+    margin: 0;
+    float: none;
+}
+
+.wp-block-group {
+    clear: both;
+    margin-bottom: 30px;
+    overflow: auto;
+}
+
+.wp-block-group:last-of-type {
+    margin-bottom: 0;
+}
+
+.wp-block-group.bio ul {
+    width: auto;
+    overflow: hidden;
+}
+
+.wp-block-group.bio h4 {
+    margin-bottom: 0;
+}
+
+.wp-block-group.bio h3 {
+    margin-top: 0;
+}
 
 /* FOOTER */
 
