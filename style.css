@@ -36,7 +36,7 @@ body, ul, li {
 .site-branding p.tagline {
     font-family: 'Source Code Pro', mono;
     font-size: 24px;
-	font-size: 1.5rem;
+    font-size: 1.5rem;
 }
 
 /* nav */
@@ -148,13 +148,16 @@ body, ul, li {
     float: none;
 }
 
-.wp-block-group {
+.wp-block-group.bio {
     clear: both;
-    margin-bottom: 30px;
     overflow: auto;
 }
 
-.wp-block-group:last-of-type {
+.wp-block-group.bio p:last-of-type {
+    margin-bottom: 30px;
+}
+
+.wp-block-group.bio:last-of-type p:last-of-type {
     margin-bottom: 0;
 }
 
@@ -172,6 +175,29 @@ body, ul, li {
 }
 
 /* FOOTER */
+#footer-two {
+    width: 25%;
+    margin-left: 5%;
+    margin-right: 20%;
+    float: left;
+}
+
+#colophon #site-info p {
+    margin-bottom: 10px;
+}
+
+#colophon #site-info ul.legal {
+    list-style: disc;
+}
+
+#colophon #site-info ul.legal li {
+    margin-left: 15px;
+}
+
+#colophon #site-info ul.legal li:first-of-type {
+    list-style: none;
+    margin-left: 0;
+}
 
 /* CREDITS */
 
