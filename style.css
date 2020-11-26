@@ -124,6 +124,13 @@ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
 }
 
 /* CONTACT */
+.site-content .wpcf7 form label,
+.site-content .wpcf7 form input[type="text"],
+.site-content .wpcf7 form input[type="email"],
+.site-content .wpcf7 form input[type="tel"],
+.site-content .wpcf7 form textarea {
+    width: 100%;
+}
 
 /* ABOUT US */
 
