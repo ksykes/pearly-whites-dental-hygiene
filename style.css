@@ -14,20 +14,41 @@ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
 
 /* BASE STYLES */
 
+body,
+input,
+textarea,
+.authorbox h3.author-name,
+.bw-custom-page .entry-content h4,
+.sharedaddy h3.sd-title {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 0.95rem;
+}
+
 body, ul, li {
     line-height: 1.5;
+    font-size: 0.95rem;
 }
 
 /* HEADER */
 
+@media screen and (min-width: 1130px) {
+    #masthead {
+        padding-top: 0;
+    }
+} 
+
 /* smaller logo */
 @media screen and (min-width: 1023px) {
     .home .site-branding {
-        max-width: 500px;
+        max-width: 500px !important;
     }
 }
 
 /* site description */
+.site-branding p.site-description {
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+
 .site-branding p.site-description:first-of-type {
     padding-bottom: 0;
 }
@@ -40,6 +61,15 @@ body, ul, li {
 }
 
 /* nav */
+#site-nav ul li {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+#site-nav li:hover > a {
+    border-bottom: 1px solid #222 !important;
+}
+
 @media screen and (min-width: 1130px) {
     .main-container {
         padding-top: 100px;
@@ -61,7 +91,7 @@ body, ul, li {
 
 /* info box */
 .green-box h2 {
-    margin-top: 15px;
+    margin-top: 0;
 }
 
 .green-box p:last-of-type {
@@ -134,6 +164,21 @@ body, ul, li {
 .site-content .wpcf7 form input[type="tel"],
 .site-content .wpcf7 form textarea {
     width: 100%;
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.site-content div#wpcf7-f46-p24-o1.wpcf7 {
+    padding-bottom: 0;
+}
+
+figure.toothbrush {
+    height: 100%;
+    margin-bottom: 0;
+}
+
+figure.toothbrush img.wp-image-103 {
+    height: 100%;
+    object-fit: cover;
 }
 
 /* ABOUT US */
@@ -197,6 +242,40 @@ body, ul, li {
 #colophon #site-info ul.legal li:first-of-type {
     list-style: none;
     margin-left: 0;
+}
+
+/* fix footer links */
+#colophon a {
+    border-bottom: 1px solid #222222;
+}
+
+#colophon a:hover {
+    border-bottom: 1px solid #ccc !important;
+}
+
+.top::before {
+    font-family: 'Times New Roman', Georgia, serif;
+}
+
+@media screen and (min-width: 1300px) {
+    .top {
+        right: 0;
+        left: auto;
+    }
+}
+
+@media screen and (min-width: 1023px) {
+    .top {
+        right: 50px;
+        left: auto;
+    }
+}
+
+@media screen and (min-width: 767px) {
+    .top {
+        right: 68px;
+        left: auto;
+    }
 }
 
 /* CREDITS */
