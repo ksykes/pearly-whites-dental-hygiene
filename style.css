@@ -12,6 +12,127 @@ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
 
 /* You can start adding your own styles here. Use !important to overwrite styles if needed. */
 
+/* ADD FOCUS TO HOVER EFFECT */
+
+#colophon a:hover,
+#colophon a:focus {
+    border-bottom: 1px solid #222222;
+}
+
+.entry-content a:hover,
+.entry-content a:focus,
+.comment-details .comment-author a:hover,
+.comment-details .comment-author a:focus,
+#colophon .textwidget a:hover,
+#colophon .textwidget a:focus,
+.intro-wrap a:hover,
+.intro-wrap a:focus,
+.entry-content .blue a:hover,
+.entry-content .blue a:focus,
+.entry-content .red a:hover,
+.entry-content .red a:focus,
+.entry-content .green a:hover,
+.entry-content .green a:focus,
+.more-info-btn:hover span,
+.more-info-btn:focus span,
+a.comment-reply-link:hover,
+a.comment-reply-link:focus {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.front-two-slogan a:hover,
+.front-two-slogan a:focus {
+    opacity: 0.5;
+}
+
+#site-nav ul li a:hover,
+#site-nav ul li a:focus {
+    color: #fff;
+}
+
+.front-one-wrap a.fp-img-link:hover,
+.front-one-wrap a.fp-img-link:focus,
+.front-two-wrap a.fp-img-link:hover,
+.front-two-wrap a.fp-img-link:focus {
+    opacity: 0.5;
+    -webkit-transition: all ease-in-out 0.3s;
+    -moz-transition: all ease-in-out 0.3s;
+    -o-transition: all ease-in-out 0.3s;
+    transition: all ease-in-out 0.3s;
+}
+
+.widget_calendar table#wp-calendar tbody tr td a:hover,
+.widget_calendar table#wp-calendar tbody tr td a:focus {
+    text-decoration: underline;
+}
+
+.dark-box a:hover,
+.dark-box a:focus {
+    color:#fff;
+}
+
+.red-btn:hover, .red-btn:focus {background: #e23e32; color: #fff;}
+.green-btn:hover, .green-btn:focus {background: #489130; color: #fff;}
+.blue-btn:hover, .blue-btn:focus {background: #459baf; color: #fff;}
+.darkblue-btn:hover, .darkblue-btn:focus {background: #3b54aa; color: #fff;}
+.purple-btn:hover, .purple-btn:focus {background: #7b54a4; color: #fff;}
+.yellow-btn:hover, .yellow-btn:focus {background: #f2db0a; color: #fff;}
+.grey-btn:hover, .grey-btn:focus {background: #999; color: #222;}
+.black-btn:hover, .black-btn:focus {background: #222; color: #fff;}
+
+.entry-content .wp-block-image a:hover,
+.entry-content .wp-block-image a:focus {
+    border: none;
+}
+
+.entry-content .wp-block-image figcaption a:hover,
+.entry-content .wp-block-image figcaption a:focus {
+        border-bottom: 1px solid #ccc;
+}
+
+@media screen and (min-width: 767px) {
+    .top:hover, .top:focus {
+        height: 45px;
+    }
+}
+
+@media screen and (min-width: 1130px) {
+    #site-nav ul li a:hover,
+    #site-nav ul li a:focus {
+        color: #222;
+    }
+    
+    #site-nav ul ul a:hover,
+    #site-nav ul ul a:focus {
+        color: #fff;
+        border-bottom: none;
+    }
+    
+    #site-nav ul li:hover > ul,
+    #site-nav ul li:focus > ul {
+        display: block;
+        -webkit-transition: all ease-in-out 0.2s;
+        -moz-transition: all ease-in-out 0.2s;
+        -o-transition: all ease-in-out 0.2s;
+        transition: all ease-in-out 0.2s;
+    }
+    
+    #site-nav li:hover > a,
+    #site-nav li:focus > a {
+        border-bottom: 2px solid #222;
+    }
+    
+    #site-nav ul ul li:hover > a,
+    #site-nav ul ul li:focus > a {
+        border-bottom: none;
+    }
+    
+    #site-nav li li:hover > a,
+    #site-nav li li:focus > a {
+        color: #fff;
+    }
+}
+
 /* BASE STYLES */
 
 body,
@@ -169,6 +290,10 @@ body, ul, li {
 
 .site-content div#wpcf7-f46-p24-o1.wpcf7 {
     padding-bottom: 0;
+}
+
+.site-content div#wpcf7-f46-p24-o1.wpcf7 input.wpcf7-submit {
+    margin-bottom: 0;
 }
 
 figure.toothbrush {
