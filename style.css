@@ -288,12 +288,17 @@ body, ul, li {
     font-family: 'Montserrat', Arial, sans-serif;
 }
 
-.site-content div#wpcf7-f46-p24-o1.wpcf7 {
+.site-content div#wpcf7-f113-p24-o1.wpcf7 {
     padding-bottom: 0;
 }
 
-.site-content div#wpcf7-f46-p24-o1.wpcf7 input.wpcf7-submit {
+.site-content div#wpcf7-f113-p24-o1.wpcf7 input.wpcf7-submit {
     margin-bottom: 0;
+}
+
+.site-content .wpcf7 form label span.required {
+    font-size: 0.8rem;
+    font-weight: normal;
 }
 
 figure.toothbrush {
