@@ -69,4 +69,4 @@
 		</nav><!-- end #site-nav -->
 		</div><!-- end #main-menu-wrap -->
 
-<div class="main-container cf">
+<main class="main-container cf">
