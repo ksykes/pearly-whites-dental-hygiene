@@ -403,6 +403,20 @@ figure.toothbrush img.wp-image-103 {
     }
 }
 
+/* cookie banner */
+.cn-button.bootstrap#cn-accept-cookie {
+    background: #00A950;
+}
+
+.cn-button.bootstrap#cn-refuse-cookie {
+    background: #EF4035;
+}
+
+.cn-button.bootstrap#cn-more-info {
+    background: transparent;
+    border: solid 1px white;
+}
+
 /* CREDITS */
 
 /* PRIVACY POLICY */
