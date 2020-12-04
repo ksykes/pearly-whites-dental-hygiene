@@ -14,8 +14,10 @@ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
 
 a:focus {
     outline: 1px dotted #212121;
+    outline-style: 1px dotted #212121;
     -moz-outline-style: 1px dotted #212121;
     outline: 5px auto -webkit-focus-ring-color;
+    outline-style: 5px auto -webkit-focus-ring-color;
     -moz-outline-style: 5px auto -webkit-focus-ring-color;
 }
 
