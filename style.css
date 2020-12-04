@@ -168,10 +168,17 @@ body, ul, li {
 /* site description */
 .site-branding p.site-description {
     font-family: 'Montserrat', Arial, sans-serif;
+    padding-bottom: 0;
 }
 
-.site-branding p.site-description:first-of-type {
-    padding-bottom: 0;
+.site-branding p.site-sub-description {
+    margin: 0;
+    padding: 0 0 30px;
+    font-size: 14px;
+    font-size: 0.875rem;
+    line-height: 1.6;
+    font-weight: 600;
+    display: block;
 }
 
 /* site tagline */
@@ -244,6 +251,7 @@ body, ul, li {
 }
 
 .payment-icons ul.blocks-gallery-grid {
+    flex-wrap: nowrap;
     padding: 0;
 }
 
@@ -351,9 +359,8 @@ figure.toothbrush img.wp-image-103 {
 
 /* FOOTER */
 #footer-two {
-    width: 25%;
+    width: 45%;
     margin-left: 5%;
-    margin-right: 20%;
     float: left;
 }
 
@@ -375,6 +382,11 @@ figure.toothbrush img.wp-image-103 {
 }
 
 /* fix footer links */
+#colophon #site-info ul.legal {
+    display: inline-block;
+    text-align: left;
+}
+
 #colophon a {
     border-bottom: 1px solid #222222;
 }
@@ -427,3 +439,60 @@ figure.toothbrush img.wp-image-103 {
 /* PRIVACY POLICY */
 
 /* MOBILE */
+
+/* Portrait tablet and small desktops */
+@media (max-width: 940px) {
+    .wp-block-group.services > .wp-block-group__inner-container {
+        flex-wrap: wrap;
+    }
+
+    .wp-block-group.why,
+    .wp-block-group.services-chart {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .entry-content .wp-block-gallery.payment-icons {
+        margin: 0;
+    }
+
+    .wp-block-columns.contact {
+        flex-wrap: wrap;
+    }
+
+    .wp-block-column.form {
+        flex-basis: 100% !important;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .wp-block-column.toothbrush {
+        display: none;
+    }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 790px) {
+    wp-block-columns.locations {
+        flex-wrap: wrap;
+    }
+
+    wp-block-column.erin,
+    wp-block-column.acton {
+        flex-basis: 100%;
+    }
+}
+
+@media (max-width: 790px) {
+    #footer-one, #footer-two {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+    .wp-block-image.headshot {
+        width: 125px;
+    }
+}
