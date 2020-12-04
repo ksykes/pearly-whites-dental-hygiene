@@ -52,7 +52,7 @@
 					$description = get_bloginfo( 'description', 'display' );
 					if ( $description || is_customize_preview() ) : ?>
 						<p class="site-description"><?php echo $description; ?></p>
-						<p class="site-description">Denturist and Dentist Available</p>
+						<p class="site-sub-description">Denturist and Dentist Available</p>
 						<p class="tagline">dream &bull; believe &bull; floss</p>
 					<?php endif;
 				?>
