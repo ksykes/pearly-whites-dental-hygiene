@@ -10,9 +10,14 @@ License:      GNU General Public License v2 or later
 License URI:  http://www.gnu.org/licenses/gpl-2.0.html
 */
 
-/* You can start adding your own styles here. Use !important to overwrite styles if needed. */
+/* ADD FOCUS STYLES */
 
-/* ADD FOCUS TO HOVER EFFECT */
+a:focus {
+    outline: 1px dotted #212121;
+    -moz-outline-style: 1px dotted #212121;
+    outline: 5px auto -webkit-focus-ring-color;
+    -moz-outline-style: 5px auto -webkit-focus-ring-color;
+}
 
 #colophon a:hover,
 #colophon a:focus {
