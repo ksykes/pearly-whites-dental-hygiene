@@ -316,6 +316,10 @@ body, ul, li {
     font-weight: normal;
 }
 
+.site-content div#wpcf7-f113-p24-o1.wpcf7 br:last-of-type {
+    display: none;
+}
+
 figure.toothbrush {
     height: 100%;
     margin-bottom: 0;
