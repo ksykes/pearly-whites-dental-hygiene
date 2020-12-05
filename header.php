@@ -14,6 +14,7 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+	<?php wp_head(); ?>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-5YGY6BWCD8"></script>
 	<script>
@@ -22,7 +23,8 @@
 		gtag('js', new Date());
 		gtag('config', 'G-5YGY6BWCD8');
 	</script>
-<?php wp_head(); ?>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
 </head>
 
 <body <?php body_class(); ?>>
