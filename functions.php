@@ -23,6 +23,13 @@ function child_remove_page_templates( $page_templates ) {
 
 add_filter( 'theme_page_templates', 'child_remove_page_templates' );
 
+// Remove 'Protected:' from password-protected post titles
+
+add_filter( 'protected_title_format', 'remove_protected_text' );
+    function remove_protected_text() {
+    return __('%s');
+}
+
 // Customize footer widget area
 
 function remove_footer_widgets() {
