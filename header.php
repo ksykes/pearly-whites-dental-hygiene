@@ -12,6 +12,15 @@
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
 	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta name="description" content="Our dental hygienist, dentist, and denturist provide cosmetic and family dental care in Erin, ON and Acton, ON." />
+	<meta name="twitter:title" content="Pearly Whites Dental Hygiene">
+	<meta name="twitter:card" value="Our dental hygienist, dentist, and denturist provide cosmetic and family dental care in Erin, ON and Acton, ON.">
+	<meta name="twitter:image" content="http://staging.pearlywhitesdentalhygiene.com/wp-content/uploads/2020/12/pearly_whites_metadata_logo.png">
+	<meta property="og:title" content="Pearly Whites Dental Hygiene" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="http://pearlywhitesdentalhygiene.com/" />
+	<meta property="og:description" content="Our dental hygienist, dentist, and denturist provide cosmetic and family dental care in Erin, ON and Acton, ON." />
+	<meta property="og:image" content="http://staging.pearlywhitesdentalhygiene.com/wp-content/uploads/2020/12/pearly_whites_metadata_logo.png" />
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 	<?php wp_head(); ?>
