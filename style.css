@@ -234,6 +234,15 @@ body, ul, li {
 }
 
 /* HERO IMAGE */
+.page-template .alignfull {
+	position: relative;
+	max-width: 100vw;
+	width: 100vw;
+	margin-left: -50vw;
+	margin-right: -50vw;
+    left: 50%;
+	right: 50%;
+}
 
 /* SERVICES */
 .wp-block-group.services > .wp-block-group__inner-container {
