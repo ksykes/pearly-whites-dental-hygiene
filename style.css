@@ -376,6 +376,14 @@ figure.toothbrush img.wp-image-103 {
     margin-bottom: 0;
 }
 
+.wp-block-group.bio p.also-available {
+    font-family: source code pro, mono;
+    font-size: 0.95rem;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+
 .wp-block-group.bio h3 {
     margin-top: 0;
 }
