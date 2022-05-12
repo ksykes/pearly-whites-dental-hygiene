@@ -1,12 +1,15 @@
 <?php
 /* Black Walnut child theme functions and definitions */
 
-// Include the parent theme style.css
+// Include the parent and child theme stylesheets
 
-add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles' );
-function theme_enqueue_styles() {
+function blackwalnut_enqueue_styles() {
+    // parent theme style.css
     wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
+    // child theme style.css
+    wp_enqueue_style('child-style', get_stylesheet_directory_uri() . '/style.css' );
 }
+add_action( 'wp_enqueue_scripts', 'blackwalnut_enqueue_styles' );
 
 // Remove unneeded parent theme page templates
 
