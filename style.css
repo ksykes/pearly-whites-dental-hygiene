@@ -301,6 +301,38 @@ body, ul, li {
 }
 
 /* LOCATIONS */
+.contact .office {
+    padding: 1rem;
+}
+
+.contact .office.erin {
+    background: #e7f3e0;
+}
+
+.contact .office.acton {
+    background: #eef6fe;
+}
+
+.contact .office h3 {
+    margin-top: 10px;
+}
+
+.contact .office ul.services {
+    margin-bottom: 0;
+}
+
+.contact .office.erin h3,
+.contact .office.erin h4 {
+    display: inline-block;
+    border-bottom: 2px solid #6CB045;
+}
+
+.contact .office.acton h3,
+.contact .office.acton h4 {
+    display: inline-block;
+    border-bottom: 2px solid #0D7AE7;
+}
+
 .locations iframe {
     border: 2px solid #e6e6e6 !important;
 }
