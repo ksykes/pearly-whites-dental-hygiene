@@ -324,13 +324,13 @@ body, ul, li {
 .contact .office.erin h3,
 .contact .office.erin h4 {
     display: inline-block;
-    border-bottom: 2px solid #6CB045;
+    border-bottom: 2px solid #3E6C23;
 }
 
 .contact .office.acton h3,
 .contact .office.acton h4 {
     display: inline-block;
-    border-bottom: 2px solid #0D7AE7;
+    border-bottom: 2px solid #0654A2;
 }
 
 .locations iframe {
@@ -375,6 +375,80 @@ figure.toothbrush img.wp-image-103 {
 }
 
 /* ABOUT US */
+.wp-block-group.bio {
+    clear: both;
+    overflow: auto;
+    padding: 1rem;
+    margin-bottom: 30px;
+}
+
+.wp-block-group.bio:last-of-type {
+    margin-bottom: 0;
+}
+
+.wp-block-group.bio p:last-of-type {
+    margin-bottom: 0;
+}
+
+.wp-block-group.bio h3 {
+    display: inline-block;
+}
+
+.wp-block-group.bio.kirk {
+    background: #E7F3E0;
+}
+
+.wp-block-group.bio.kirk h3 {
+    border-bottom: 2px solid #3E6C23;
+}
+
+.wp-block-group.bio.fijolek {
+    background: #EEF6FE;
+}
+
+.wp-block-group.bio.fijolek h3 {
+    border-bottom: 2px solid #0654A2;
+}
+
+.wp-block-group.bio.osipenkov {
+    background: #FFF0F1;
+}
+
+.wp-block-group.bio.osipenkov h3 {
+    display: inline-block;
+    border-bottom: 2px solid #7F3237;
+}
+
+.wp-block-group.bio.osipenkov .also-available {
+    color: #7F3237;
+}
+
+.wp-block-group.bio.hazell {
+    background: #F5ECFD;
+}
+
+.wp-block-group.bio.hazell h3 {
+    display: inline-block;
+    border-bottom: 2px solid #6A2BA0;
+}
+
+.wp-block-group.bio.hazell .also-available {
+    color: #6A2BA0;
+}
+
+.wp-block-group.bio.glover {
+    background: #FFFFCC;
+}
+
+.wp-block-group.bio.glover h3 {
+    display: inline-block;
+    border-bottom: 2px solid #757537;
+}
+
+.wp-block-group.bio .qualifications {
+    font-size: 85%;
+}
+
 .wp-block-image.headshot {
     width: 165px;
     float: left;
@@ -384,15 +458,6 @@ figure.toothbrush img.wp-image-103 {
 .wp-block-image.headshot figure.alignleft.size-large {
     margin: 0;
     float: none;
-}
-
-.wp-block-group.bio {
-    clear: both;
-    overflow: auto;
-}
-
-.wp-block-group.bio p:last-of-type {
-    margin-bottom: 30px;
 }
 
 .wp-block-group.bio:last-of-type p:last-of-type {
